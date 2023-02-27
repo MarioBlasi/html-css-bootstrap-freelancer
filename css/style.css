@@ -1,3 +1,7 @@
+body {
+  border: 1px solid black;
+}
+
 #app_header {
   background-color: var(--mar-header);
   height: 100px;
@@ -7,6 +11,61 @@
   background-color: var(--mar-1main);
   color: white;
 }
+
+.m {
+  background-color: var(--mar-1main);
+  color: white;
+  padding: 5rem;
+}
+
+.btn_about {
+  margin-top: 2rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn {
+  border-radius: 0.5rem;
+  width: 12rem;
+  height: 2rem;
+  border-color: white;
+  color: white;
+}
+.contact {
+  background-color: white;
+}
+.contact-text,
+.info {
+  padding: 1rem;
+  padding-left: 10rem;
+  padding-right: 10rem;
+}
+ul {
+  list-style: none;
+  text-align: left;
+}
+li {
+  border-bottom: 1px solid grey;
+}
+.mess li {
+  border-bottom: none;
+}
+.btn_send {
+  margin-top: 2rem;
+  width: 100%;
+  display: flex;
+  justify-content: start;
+}
+.btns {
+  border-radius: 0.5rem;
+  width: 5rem;
+  height: 2rem;
+  background-color: var(--mar-1main);
+  border-color: transparent;
+  color: white;
+}
+
 .col-8,
 .col-4 {
   border: 1px solid white;
@@ -15,6 +74,8 @@
 }
 img {
   max-width: 100%;
+  padding: 1rem;
+  border-radius: 2rem;
 }
 .column img {
   width: 350px;
@@ -23,6 +84,7 @@ img {
 .mar {
   background-color: aquamarine;
 }
+
 :root {
   --mar-header: rgb(44, 62, 80);
   --mar-1main: rgb(26, 188, 156);
