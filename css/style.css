@@ -10,14 +10,18 @@
   height: 100px;
   color: white;
 }
-.col-8 {
+.start {
   text-align: center;
   line-height: 5rem;
 }
-.col-4 {
+.information {
   text-align: left;
   font-size: x-small;
   line-height: 5rem;
+}
+.bars {
+  line-height: 6rem;
+  text-align: center;
 }
 /*-----end----header---------- */
 .cv-curriculum {
@@ -74,6 +78,9 @@ img {
 /* start contact me section */
 .contact {
   background-color: white;
+}
+.contact-text {
+  white-space: nowrap;
 }
 .contact-text,
 .info {
@@ -148,3 +155,61 @@ li {
   background-color: var(--mar-2footer);
 }
 /* end app_footer */
+
+/* ----------------Responsive------------------------------ */
+/* ----------------S---580--px--------------- */
+@media screen and (min-width: 576px) {
+  .bars {
+    display: none;
+  }
+  .container {
+    max-width: 540px;
+  }
+}
+/* ----------------MD---768-px-------Tablet-------- */
+@media screen and (min-width: 768px) {
+  .bars {
+    display: none;
+  }
+  .container {
+    max-width: 720px;
+  }
+}
+/* ----------------LG---992-+-px--------------- */
+@media screen and (min-width: 992px) {
+  .bars {
+    display: none;
+  }
+  .container {
+    max-width: 960px;
+  }
+}
+/* ---------------1200px-------------- */
+@media screen and (min-width: 1200px) {
+  .bars {
+    display: none;
+  }
+  .container {
+    max-width: 1140px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .bars {
+    display: none;
+  }
+  .container {
+    max-width: 1320px;
+  }
+}
+/* ----------------Responsive------------------------------ */
+/* --------------max-width: 480px------------ */
+@media screen and (max-width: 480px) {
+  .information {
+    display: none;
+  }
+}
+@media screen and (max-width: 580px) {
+  .information {
+    display: none;
+  }
+}
