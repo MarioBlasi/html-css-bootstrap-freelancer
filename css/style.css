@@ -23,10 +23,29 @@
   line-height: 6rem;
   text-align: center;
 }
+.linee-star {
+  display: inline-block;
+  white-space: nowrap;
+  color: white;
+}
+.fa-star {
+  position: relative;
+}
+p {
+  position: absolute;
+  border-radius: 2rem;
+  border-top: 5px solid rgb(255, 255, 255);
+  margin-left: 13rem;
+  margin-top: -7.5px;
+  width: 18rem;
+  top: 15px;
+  right: -8rem;
+}
 /*-----end----header---------- */
 .portofolio-text {
   margin-top: 2rem;
 }
+
 .cv-curriculum {
   display: inline-block;
   white-space: nowrap;
