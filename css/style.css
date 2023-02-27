@@ -1,13 +1,17 @@
 #app_header {
-  background-color: rgb(18, 77, 38);
+  background-color: var(--mar-header);
   height: 100px;
+  color: white;
 }
-.container {
-  border: 1px solid rgb(0, 0, 0);
+.first-main {
+  background-color: var(--mar-1main);
+  color: white;
 }
-
+.col-8,
+.col-4 {
+  border: 1px solid white;
+}
 .col {
-  border: 1px solid rgb(155, 15, 15);
 }
 img {
   max-width: 100%;
@@ -18,4 +22,10 @@ img {
 }
 .mar {
   background-color: aquamarine;
+}
+:root {
+  --mar-header: rgb(44, 62, 80);
+  --mar-1main: rgb(26, 188, 156);
+  --mar-1footer: rgb(44, 62, 80);
+  --mar-2footer: rgb(44, 62, 80);
 }
