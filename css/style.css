@@ -13,15 +13,23 @@ body {
   height: 100px;
   color: white;
 }
+
 .first-main {
   background-color: var(--mar-1main);
   color: white;
 }
-.col-8,
-.col-4 {
-  border: 1px solid white;
+
+.col-8 {
+  text-align: center;
+  line-height: 5rem;
 }
-.col {
+.col-4 {
+  text-align: left;
+  font-size: x-small;
+  line-height: 5rem;
+}
+.cv {
+  padding: 2rem;
 }
 img {
   max-width: 100%;
@@ -34,6 +42,10 @@ img {
 }
 
 /* start about section */
+.linee-star > span {
+  width: 5rem;
+  color: white;
+}
 .m {
   background-color: var(--mar-1main);
   color: white;
