@@ -24,6 +24,9 @@
   text-align: center;
 }
 /*-----end----header---------- */
+.portofolio-text {
+  margin-top: 2rem;
+}
 .cv-curriculum {
   display: inline-block;
   white-space: nowrap;
