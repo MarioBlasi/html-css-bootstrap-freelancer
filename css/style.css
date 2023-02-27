@@ -1,5 +1,21 @@
-* {
-  margin: 0rem;
-  padding: 0;
-  box-sizing: border-box;
+#app_header {
+  background-color: rgb(18, 77, 38);
+  height: 100px;
+}
+.container {
+  border: 1px solid rgb(0, 0, 0);
+}
+
+.col {
+  border: 1px solid rgb(155, 15, 15);
+}
+img {
+  max-width: 100%;
+}
+.column img {
+  width: 350px;
+  height: 255px;
+}
+.mar {
+  background-color: aquamarine;
 }
