@@ -1,24 +1,15 @@
-body {
-  border: 1px solid black;
-}
 :root {
   --mar-header: rgb(44, 62, 80);
   --mar-1main: rgb(26, 188, 156);
-  --mar-1footer: rgb(44, 62, 80);
-  --mar-2footer: rgb(44, 62, 80);
+  --mar-1footer: rgb(58, 84, 109);
+  --mar-2footer: #2c3e50;
 }
-
+/*---------header---------- */
 #app_header {
   background-color: var(--mar-header);
   height: 100px;
   color: white;
 }
-
-.first-main {
-  background-color: var(--mar-1main);
-  color: white;
-}
-
 .col-8 {
   text-align: center;
   line-height: 5rem;
@@ -28,6 +19,16 @@ body {
   font-size: x-small;
   line-height: 5rem;
 }
+/*-----end----header---------- */
+.cv-curriculum {
+  display: inline-block;
+  white-space: nowrap;
+}
+.first-main {
+  background-color: var(--mar-1main);
+  color: white;
+}
+
 .cv {
   padding: 2rem;
 }
@@ -51,18 +52,19 @@ img {
   color: white;
   padding: 5rem;
 }
-
+.fa-download {
+  padding-right: 0.5rem;
+}
 .btn_about {
   margin-top: 2rem;
   width: 100%;
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 .btn {
   border-radius: 0.5rem;
-  width: 12rem;
-  height: 2rem;
+  width: 10rem;
+  height: 3rem;
   border-color: white;
   color: white;
   line-height: 1rem;
@@ -107,6 +109,7 @@ li {
   background-color: var(--mar-1main);
   border-color: transparent;
   color: white;
+  margin-left: 1.5rem;
 }
 /* endc ontact me section */
 
@@ -114,6 +117,7 @@ li {
 #app_footer {
   background-color: var(--mar-1footer);
   color: white;
+  padding-top: 2rem;
 }
 
 .social {
@@ -121,33 +125,26 @@ li {
   justify-content: center;
 }
 .fa {
-  font-size: 35px;
-  width: 35px;
+  font-size: 30px;
+  width: 30px;
   text-align: center;
   text-decoration: none;
   border-radius: 50%;
   text-align: center;
   margin: 0.5rem;
 }
-.fa-twitter {
-  background: transparent;
-  color: white;
-  border: 1px solid white;
-}
-.fa-facebook {
-  background: transparent;
-  color: white;
-  border: 1px solid white;
-}
+
+.fa-facebook,
+.fa-google,
+.fa-twitter,
 .fa-instagram {
   background: transparent;
   color: white;
   border: 1px solid white;
 }
-.fa-google {
-  background: transparent;
-  color: white;
-  border: 1px solid white;
-}
 
+.block {
+  font-size: x-small;
+  background-color: var(--mar-2footer);
+}
 /* end app_footer */
