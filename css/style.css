@@ -12,29 +12,12 @@ nav {
   background-color: var(--mar-header);
   height: 80px;
 }
+
 [class^="col-"] {
 }
 /*<nav class="navbar navbar-expand-lg bg--mar-header">
     <div class="container-fluid">
       <a class="navbar-brand text-uppercase " href="#">start bootstrap</a>*/
-.start {
-  text-align: left;
-  line-height: 5rem;
-}
-.information {
-  text-align: right;
-  font-size: x-small;
-  line-height: 5rem;
-}
-.bars {
-  line-height: 6rem;
-  text-align: center;
-}
-.linee-star {
-  display: inline-block;
-  white-space: nowrap;
-  color: white;
-}
 
 /*-----end----nav---------- */
 .portofolio-text {
@@ -103,42 +86,17 @@ img {
   padding-right: 10rem;
 }
 
-ul {
-  list-style: none;
-  text-align: left;
-}
-li {
-  border-bottom: 1px solid grey;
-}
-.mess li {
-  border-bottom: none;
-  margin-bottom: 5rem;
-}
-
-.line-border {
-  border-bottom: 1px solid grey;
-}
-.btn_send {
-  width: 100%;
-  display: flex;
-  justify-content: start;
-}
-.btns {
-  border-radius: 0.5rem;
-  width: 5rem;
-  height: 2rem;
-  background-color: var(--mar-1main);
-  border-color: transparent;
-  color: white;
-  margin-left: 1.5rem;
-}
 /* endc contact me section */
 
 /* start app_footer */
-#app_footer {
+
+.footer-top {
   background-color: var(--mar-1footer);
   color: white;
   padding-top: 2rem;
+}
+.footer_bottom {
+  height: 60px;
 }
 
 .social {
