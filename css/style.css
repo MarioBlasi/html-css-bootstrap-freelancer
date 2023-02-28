@@ -34,11 +34,12 @@ img {
 .navbar > .container-xl,
 .navbar > .container-xxl {
   flex-wrap: inherit;
-  justify-content: space-around;
+  justify-content: space-evenly;
   display: flex;
 }
 .navbar-brand {
   margin-right: 12rem;
+  text-align: right;
 }
 
 li {
@@ -59,6 +60,9 @@ li {
 .button {
   text-align: start;
 }
+.btn_about {
+  margin-top: 2rem;
+}
 .button {
   border-top: 1px solid rgb(183, 189, 196);
   margin-top: 4rem;
@@ -70,7 +74,7 @@ li {
 /* start ----------------------contact me section */
 
 .contact-text {
-  white-space: nowrap;
+  margin-top: 2rem;
 }
 
 /* endc --------------------contact me section */
@@ -123,28 +127,3 @@ li {
   background-color: var(--mar-2footer);
 }
 /* end -------------------app_footer */
-
-@includemedia-breakpoint-only (xs) {
-  ul {
-    display: none;
-  }
-}
-@includemedia-breakpoint-only (sm) {
-  ul {
-    display: none;
-  }
-}
-@includemedia-breakpoint-only (md) {
-  ul {
-    display: none;
-  }
-}
-@includemedia-breakpoint-only (lg) {
-  ...;
-}
-@includemedia-breakpoint-only (xl) {
-  ...;
-}
-@includemedia-breakpoint-only (xxl) {
-  ...;
-}
