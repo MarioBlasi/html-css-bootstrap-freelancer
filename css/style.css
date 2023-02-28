@@ -7,12 +7,16 @@
 body {
   overflow-x: hidden;
 }
-/*---------header---------- */
-#app_header {
+/*--------nav---------- */
+nav {
   background-color: var(--mar-header);
-  height: 100px;
-  color: white;
+  height: 80px;
 }
+[class^="col-"] {
+}
+/*<nav class="navbar navbar-expand-lg bg--mar-header">
+    <div class="container-fluid">
+      <a class="navbar-brand text-uppercase " href="#">start bootstrap</a>*/
 .start {
   text-align: left;
   line-height: 5rem;
@@ -32,7 +36,7 @@ body {
   color: white;
 }
 
-/*-----end----header---------- */
+/*-----end----nav---------- */
 .portofolio-text {
   margin-top: 2rem;
 }
@@ -128,7 +132,7 @@ li {
   color: white;
   margin-left: 1.5rem;
 }
-/* endc ontact me section */
+/* endc contact me section */
 
 /* start app_footer */
 #app_footer {
@@ -165,61 +169,3 @@ li {
   background-color: var(--mar-2footer);
 }
 /* end app_footer */
-
-/* ----------------Responsive------------------------------ */
-/* ----------------S---580--px--------------- */
-@media screen and (min-width: 576px) {
-  .bars {
-    display: none;
-  }
-  .container {
-    max-width: 540px;
-  }
-}
-/* ----------------MD---768-px-------Tablet-------- */
-@media screen and (min-width: 768px) {
-  .bars {
-    display: none;
-  }
-  .container {
-    max-width: 720px;
-  }
-}
-/* ----------------LG---992-+-px--------------- */
-@media screen and (min-width: 992px) {
-  .bars {
-    display: none;
-  }
-  .container {
-    max-width: 960px;
-  }
-}
-/* ---------------1200px-------------- */
-@media screen and (min-width: 1200px) {
-  .bars {
-    display: none;
-  }
-  .container {
-    max-width: 1140px;
-  }
-}
-@media screen and (min-width: 1400px) {
-  .bars {
-    display: none;
-  }
-  .container {
-    max-width: 1320px;
-  }
-}
-/* ----------------Responsive------------------------------ */
-/* --------------max-width: 480px------------ */
-@media screen and (max-width: 480px) {
-  .information {
-    display: none;
-  }
-}
-@media screen and (max-width: 580px) {
-  .information {
-    display: none;
-  }
-}
