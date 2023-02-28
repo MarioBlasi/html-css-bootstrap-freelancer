@@ -4,6 +4,9 @@
   --mar-1footer: rgb(58, 84, 109);
   --mar-2footer: #2c3e50;
 }
+body {
+  overflow-x: hidden;
+}
 /*---------header---------- */
 #app_header {
   background-color: var(--mar-header);
@@ -11,11 +14,11 @@
   color: white;
 }
 .start {
-  text-align: center;
+  text-align: left;
   line-height: 5rem;
 }
 .information {
-  text-align: left;
+  text-align: right;
   font-size: x-small;
   line-height: 5rem;
 }
@@ -28,24 +31,11 @@
   white-space: nowrap;
   color: white;
 }
-.fa-star {
-  position: relative;
-}
-p {
-  position: absolute;
-  border-radius: 2rem;
-  border-top: 5px solid rgb(255, 255, 255);
-  margin-left: 13rem;
-  margin-top: -7.5px;
-  width: 18rem;
-  top: 15px;
-  right: -8rem;
-}
+
 /*-----end----header---------- */
 .portofolio-text {
   margin-top: 2rem;
 }
-
 .cv-curriculum {
   display: inline-block;
   white-space: nowrap;
@@ -54,7 +44,6 @@ p {
   background-color: var(--mar-1main);
   color: white;
 }
-
 .cv {
   padding: 2rem;
 }
@@ -67,7 +56,6 @@ img {
   width: 350px;
   height: 255px;
 }
-
 /* start about section */
 .linee-star > span {
   width: 5rem;
