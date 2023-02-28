@@ -13,14 +13,6 @@ nav {
   height: 80px;
 }
 
-[class^="col-"] {
-}
-/*<nav class="navbar navbar-expand-lg bg--mar-header">
-    <div class="container-fluid">
-      <a class="navbar-brand text-uppercase " href="#">start bootstrap</a>*/
-
-/*-----end----nav---------- */
-
 .bg_mar_1main {
   background-color: var(--mar-1main);
   color: white;
@@ -37,57 +29,43 @@ img {
   width: 350px;
   height: 255px;
 }
-/* start about section */
-.linee-star > span {
-  width: 5rem;
-  color: white;
-}
+/* start ABOUT section */
 .row-about {
-  background-color: var(--mar-1main);
-  color: white;
   padding: 5rem;
 }
 .fa-download {
   padding-right: 0.5rem;
 }
-.btn_about {
-  margin-top: 2rem;
-  width: 100%;
-  display: flex;
-  justify-content: center;
+.testo-dati,
+.button {
+  text-align: start;
 }
-.btn {
-  border-radius: 0.5rem;
-  width: 10rem;
-  height: 3rem;
-  border-color: white;
-  color: white;
-  line-height: 1rem;
+.button {
+  margin-top: 4rem;
 }
 /* end about section */
 
 /* start contact me section */
-.contact {
-  background-color: white;
-}
+
 .contact-text {
   white-space: nowrap;
-}
-.contact-text,
-.info {
-  padding: 1rem;
-  padding-left: 10rem;
-  padding-right: 10rem;
 }
 
 /* endc contact me section */
 
 /* start app_footer */
+
+.p-3 {
+  padding: 5rem !important;
+}
 .bg_mar_1footer {
   background-color: var(--mar-1footer);
 }
 .mt-20 {
   margin-top: 20 !important;
+}
+.footer-top {
+  padding-top: 2rem;
 }
 .footer_bottom {
   height: 60px;
