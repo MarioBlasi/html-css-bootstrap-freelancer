@@ -46,9 +46,7 @@ li {
   display: inline-block;
   padding: 1rem;
 }
-.navbar-toggler {
-  display: none;
-}
+
 /*----------------------------end---nav---------- */
 /* start ----------------------ABOUT section */
 .row-about {
@@ -125,3 +123,28 @@ li {
   background-color: var(--mar-2footer);
 }
 /* end -------------------app_footer */
+
+@includemedia-breakpoint-only (xs) {
+  ul {
+    display: none;
+  }
+}
+@includemedia-breakpoint-only (sm) {
+  ul {
+    display: none;
+  }
+}
+@includemedia-breakpoint-only (md) {
+  ul {
+    display: none;
+  }
+}
+@includemedia-breakpoint-only (lg) {
+  ...;
+}
+@includemedia-breakpoint-only (xl) {
+  ...;
+}
+@includemedia-breakpoint-only (xxl) {
+  ...;
+}
