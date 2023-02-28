@@ -4,9 +4,6 @@
   --mar-1footer: rgb(58, 84, 109);
   --mar-2footer: #2c3e50;
 }
-body {
-  overflow-x: hidden;
-}
 /*--------nav---------- */
 nav {
   background-color: var(--mar-header);
@@ -29,7 +26,31 @@ img {
   width: 350px;
   height: 255px;
 }
-/* start ABOUT section */
+.navbar > .container,
+.navbar > .container-fluid,
+.navbar > .container-lg,
+.navbar > .container-md,
+.navbar > .container-sm,
+.navbar > .container-xl,
+.navbar > .container-xxl {
+  flex-wrap: inherit;
+  justify-content: space-around;
+  display: flex;
+}
+.navbar-brand {
+  margin-right: 12rem;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+  padding: 1rem;
+}
+.navbar-toggler {
+  display: none;
+}
+/*----------------------------end---nav---------- */
+/* start ----------------------ABOUT section */
 .row-about {
   padding: 5rem;
 }
@@ -41,20 +62,25 @@ img {
   text-align: start;
 }
 .button {
+  border-top: 1px solid rgb(183, 189, 196);
   margin-top: 4rem;
+  margin-bottom: 3rem;
+  padding-top: 1rem;
 }
-/* end about section */
+/* end -------------------------about section */
 
-/* start contact me section */
+/* start ----------------------contact me section */
 
 .contact-text {
   white-space: nowrap;
 }
 
-/* endc contact me section */
+/* endc --------------------contact me section */
 
-/* start app_footer */
-
+/* start----------------- app_footer */
+#app_footer {
+  color: white;
+}
 .p-3 {
   padding: 5rem !important;
 }
@@ -98,4 +124,4 @@ img {
   font-size: x-small;
   background-color: var(--mar-2footer);
 }
-/* end app_footer */
+/* end -------------------app_footer */
