@@ -20,14 +20,8 @@ nav {
       <a class="navbar-brand text-uppercase " href="#">start bootstrap</a>*/
 
 /*-----end----nav---------- */
-.portofolio-text {
-  margin-top: 2rem;
-}
-.cv-curriculum {
-  display: inline-block;
-  white-space: nowrap;
-}
-.first-main {
+
+.bg_mar_1main {
   background-color: var(--mar-1main);
   color: white;
 }
@@ -89,11 +83,11 @@ img {
 /* endc contact me section */
 
 /* start app_footer */
-
-.footer-top {
+.bg_mar_1footer {
   background-color: var(--mar-1footer);
-  color: white;
-  padding-top: 2rem;
+}
+.mt-20 {
+  margin-top: 20 !important;
 }
 .footer_bottom {
   height: 60px;
